@@ -1,0 +1,90 @@
+.score-result {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+body {
+    width: 40%;
+    font-size: 12px;
+    margin-left: auto;
+    background-color: lightgray;
+    margin-right: auto;
+    height: 100vh;
+}
+.score-summary {
+    background-color: white;
+    padding: 20px;
+}
+
+.score {
+    margin-top: 10px;
+}
+
+.team-name,  .won-by-summary, .matches{
+    text-align:  center;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.won-by-summary {
+    line-height: 20px;
+}
+
+.highlights {
+    background-color: white;
+}
+
+.highlights iframe {
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+
+  .team-score-tab button {
+      width: 50%;
+  }
+
+  .team-score-card {
+    background-color: white;
+      padding: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  tr {
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+
+  .extras-score, .total-score {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      padding:10px;
+  }
