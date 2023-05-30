@@ -10,8 +10,8 @@ body {
     width: 40%;
     font-size: 12px;
     margin-left: auto;
-    background-color: lightgray;
     margin-right: auto;
+    background-color: lightgray;
     height: 100vh;
 }
 .score-summary {
@@ -51,10 +51,8 @@ body {
 }
 
 .tab button {
-    background-color: inherit;
     float: left;
     border: none;
-    outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;

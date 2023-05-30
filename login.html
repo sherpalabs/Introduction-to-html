@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="login.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link href="login.css" rel="stylesheet" />
+    <title>Login form</title>
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-form">
-         <h2 class="heading">Login</h2>
-         <form class="form">
-           <input type="email" class="input" placeholder="Your Email Id" />           
-           <input type="password" class="input" placeholder="Your password" />           
-
-              <button type="submit" class="submit-button">Submit</button>
-         </form>
-        </div>
-    </div>
+    <div class="login-card">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password">
+          <button type="submit">Login</button>
+        </form>
+      </div>
     
 </body>
 </html>
